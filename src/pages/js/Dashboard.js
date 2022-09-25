@@ -1,49 +1,43 @@
 import React, { Component } from 'react'
-import {NavDropdown, Nav, Navbar, Container, Form, Button} from 'react-bootstrap'
+import logo from '../img/logo.jpg';
 
+import {AiOutlineUser} from 'react-icons/ai'
+import {AiOutlineHeart} from 'react-icons/ai'
+import {BsHandbag} from 'react-icons/bs'
+import '../css/Dashboard.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 export default class Dashboard extends Component {
   render() {
     return (
       <div>
-        <Navbar bg="light" expand="lg">
-      <Container fluid>
-        <Navbar.Brand href="#">Navbar scroll</Navbar.Brand>
-        <Navbar.Toggle aria-controls="navbarScroll" />
-        <Navbar.Collapse id="navbarScroll">
-          <Nav
-            className="me-auto my-2 my-lg-0"
-            style={{ maxHeight: '100px' }}
-            navbarScroll
-          >
-            <Nav.Link href="#action1">Home</Nav.Link>
-            <Nav.Link href="#action2">Link</Nav.Link>
-            <NavDropdown title="Link" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action4">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action5">
-                Something else here
-              </NavDropdown.Item>
-            </NavDropdown>
-            <Nav.Link href="#" disabled>
-              Link
-            </Nav.Link>
-          </Nav>
-          <Form className="d-flex">
-            <Form.Control
-              type="search"
-              placeholder="Search"
-              className="me-2"
-              aria-label="Search"
-            />
-            <Button variant="outline-success">Search</Button>
-          </Form>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
+        <div className='Navbar'>
+          <div className='Nav_logo'>
+            <img src={logo} alt="Logo" className="Logo" />
+            <p><span>ETE</span>  products</p>
+            <div className='Nav_phone'>+998(94)3048710</div>
+          </div>
+          
+          <div className='Nav_search'>
+            <input placeholder='Поиск товаров, категорий......'></input>
+          </div>
+          <div className='Nav_search'>
+            <input placeholder='Поиск товаров по коду......'></input>
+          </div>
+          <div className='Nav_right'>
+            <div className='user'>
+              <AiOutlineUser/>
+              <p>Вход</p>
+            </div>
+            <div className='user'>
+              <AiOutlineHeart/>
+              <p>Избранные</p>
+            </div>
+            <div className='user'>
+              <BsHandbag/>
+              <p>Корзина</p>
+            </div>
+          </div>
+        </div>
       </div>
     )
   }
