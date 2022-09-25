@@ -36,12 +36,18 @@
     border: 0;
     padding: 10px 20px;
     border-radius: 100px;
-    width: 90%;
+    width: 150%;
     transition: all .4s;
     margin-right: -2.75rem
 }
 .Nav_right{
+    width: 20vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.user{
+    display: grid;
+    align-items: center;
+    justify-content: center;
 }

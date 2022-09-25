@@ -25,15 +25,15 @@ export default class Dashboard extends Component {
           </div>
           <div className='Nav_right'>
             <div className='user'>
-              <AiOutlineUser/>
+              <AiOutlineUser className='icon'/>
               <p>Вход</p>
             </div>
             <div className='user'>
-              <AiOutlineHeart/>
+              <AiOutlineHeart className='icon'/>
               <p>Избранные</p>
             </div>
             <div className='user'>
-              <BsHandbag/>
+              <BsHandbag className='icon'/>
               <p>Корзина</p>
             </div>
           </div>
