@@ -1,0 +1,86 @@
+.Navbar{
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    border-bottom: 1px solid #ccc;
+}
+.Nav_logo{
+    /* width: 10vw; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.Nav_logo p{
+    /* width: 50px; */
+    line-height: 15px;
+    margin-top: 12%;
+    margin-left: 5%;
+}
+.Nav_logo p span{
+    font-weight: bold;
+    font-size: 2vw;
+}
+.Logo{
+    width: 3vw;
+    margin-top: 1%;
+    margin-left: 4%;
+    border: 1px solid black;
+    border-radius: 60px;
+}
+.Nav_search{
+    /* width: 50%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Nav_search input{
+    /* width: 40vw; */
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: #f4f8f7;
+    border: 0;
+    padding: 8px 20px;
+    border-radius: 100px;
+    width: 150%;
+    transition: all .4s;
+    /* margin-right: -2.75rem */
+}
+.Nav_right{
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.user{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.Menu{
+    /* width: 50%; */
+    width: 90vw;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-top: 20px;
+    margin-left: 120px;
+}
+.Menu select{
+    width: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    border: none;
+    font-weight: 500;
+    font-size: 1.25rem;
+    /* margin-right: 20px; */
+    
+}
+.Menu h5{
+    margin-top: 10px;
+    margin-left: 40px;
+}
