@@ -20,7 +20,7 @@
     background-color: #ffbf00;
     color: #fff !important;
     font-size: 2.5vw;
-    padding: 10px;
+    padding: 2%;
     /* margin-top: 50px; */
 }
 .Slide_left p{
@@ -30,13 +30,14 @@
     font-size: 1vw;
 }
 .Slide_left button{
-    width: 150px;
-    height: 50px;
+    width: 10vw;
+    height: 3vw;
     background: none;
     border-radius: 60px;
-    border: 3px solid #ffbf00;
+    border: .25vw solid #ffbf00;
     color: #ffbf00;
     font-weight: 700;
+    font-size: 1.2vw;
 }
 .Slide_left button:hover{
     background-color: #ffbf00;
@@ -193,4 +194,20 @@
 }
 .contact_icon{
     text-align: center;
+    font-size: 1.2vw;
+    font-weight:  500;
+    margin-top: 5%;
+}
+.contact_icon svg{
+    font-size: 40px;
+    color: #ffbf00  !important;
+    margin-bottom: 2%;
+}
+.social_icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.brands img{
+    width: 100%;
 }

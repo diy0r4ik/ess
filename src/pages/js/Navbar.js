@@ -24,17 +24,24 @@ export default class Navbar extends Component {
           <div className='Nav_search'>
           </div>
           <div className='Nav_right'>
-            <div className='user'>
+            <div className='user_icons'>
+              <div className='user'>
               <AiOutlineUser className='icon'/>
               <p>Вход</p>
+              </div>
             </div>
-            <div className='user'>
+            <div className='user_icons'>
+              <div className='user'>
               <AiOutlineHeart className='icon'/>
               <p>Избранные</p>
+              </div>
             </div>
-            <div className='user'>
+
+            <div className='user_icons'>
+              <div className='user'>
               <BsHandbag className='icon'/>
               <p>Корзина</p>
+              </div>
             </div>
           </div>
         </div>

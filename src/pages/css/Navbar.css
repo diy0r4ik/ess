@@ -51,12 +51,20 @@
 .Nav_right{
     width: 20vw;
     display: flex;
+    /* text-align: center; */
     align-items: center;
     justify-content: space-between;
 }
+.user_icons{
+    display: grid;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
 .user{
     display: grid;
-    align-items: center;
+    /* align-items: center; */
+    text-align: center;
     justify-content: center;
 }
 .Menu{

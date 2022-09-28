@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
 
 import {FiPhoneCall} from 'react-icons/fi'
-
+import {MdOutlineMarkEmailUnread, MdOutlineLocationOn} from 'react-icons/md'
+import {BsClock, BsInstagram, BsTelegram,BsFacebook} from 'react-icons/bs'
 import invector from '../img/invector.jpg'
 import vikulchatel from '../img/vikulchatel.jpg'
-import NM from '../img/NM.jpg'
+import brands from '../img/brands.jpg'
 import avtomat from '../img/avtomat.jpg'
 
 import '../css/Dashboard.css'
@@ -115,20 +116,34 @@ export default class Dashboard extends Component {
             <p>+998943048710</p>
           </div>
           <div className='contact_icon'>
-            <FiPhoneCall/>
-            <p>+998943048710</p>
+            <MdOutlineMarkEmailUnread/>
+            <p>Ess.uz@mail.ru</p>
           </div>
           <div className='contact_icon'>
-            <FiPhoneCall/>
-            <p>+998943048710</p>
+            <BsClock/>
+            <p>Пн - Сб <br/> 09:00 - 18-00</p>
           </div>
           <div className='contact_icon'>
-            <FiPhoneCall/>
-            <p>+998943048710</p>
+            <MdOutlineLocationOn/>
+            <p>Узбекистан, Ташкент, <br/> Шайхантахурский район, Тахатпуль, <br/> ул Адхама Рахмата 12B (ориентир <br/> рынок Малика)
+</p>
+          </div>
+          <div className='contact_icon'>
+            <div className='social_icons'>
+              <BsInstagram/>
+              <BsTelegram/>
+              <BsFacebook/>
+            </div>
+            <p>Ищите нас в социальных сетях</p>
           </div>
         </div>
       </div>
     </section>
+
+    <div className='brands'>
+      <img src={brands}/>
+    </div>
+
       </div>
     )
   }
