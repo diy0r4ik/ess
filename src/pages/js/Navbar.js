@@ -3,7 +3,7 @@ import logo from '../img/logo.jpg';
 
 import {AiOutlineUser} from 'react-icons/ai'
 import {AiOutlineHeart} from 'react-icons/ai'
-import {BsHandbag} from 'react-icons/bs'
+import {BsHandbag, BsSearch} from 'react-icons/bs'
 import '../css/Navbar.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 export default class Navbar extends Component {
@@ -18,10 +18,15 @@ export default class Navbar extends Component {
           </div>
           
           <div className='Nav_search'>
-            <input placeholder='Поиск товаров, категорий......'></input>
-            <input placeholder='Поиск товаров по коду......'></input>
-          </div>
-          <div className='Nav_search'>
+            <div className='Input_a'>
+              <input placeholder='Поиск товаров, категорий......'></input>
+              <BsSearch/>
+            </div>
+            <div className='Input_a'>
+              <input placeholder='Поиск товаров по коду......'></input>
+              <BsSearch/>
+
+            </div>
           </div>
           <div className='Nav_right'>
             <div className='user_icons'>

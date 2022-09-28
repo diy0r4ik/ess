@@ -30,30 +30,37 @@
     border-radius: 60px;
 }
 .Nav_search{
-    /* width: 50%; */
+    width: 50%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .Nav_search input{
-    /* width: 40vw; */
+    width: 45%;
     font-family: inherit;
-    font-size: inherit;
+    /* font-size: inherit; */
     color: inherit;
     background-color: #f4f8f7;
     border: 0;
     padding: 8px 20px;
     border-radius: 100px;
-    width: 150%;
+    /* width: 150%; */
     transition: all .4s;
-    /* margin-right: -2.75rem */
 }
 .Nav_right{
-    width: 20vw;
+    width: 15%;
     display: flex;
     /* text-align: center; */
     align-items: center;
     justify-content: space-between;
+}
+.Input_a{
+    position: relative;
+}
+.BsSearch{
+    position: absolute;
+    right: 5px;
+    top: 5px;
 }
 .user_icons{
     display: grid;
