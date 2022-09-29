@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { BsInstagram, BsTelegram,BsFacebook} from 'react-icons/bs'
+import logo from '../img/Logo.png';
 
 
 import '../css/Footer.css'
@@ -9,10 +10,11 @@ export default class Footer extends Component {
       <div>
         <div className='Footer'>
             <div className='Footer_logo'>
-                <img/>
+                <img src={logo}/>
                 <p>Интернет-магазин электротехники </p>
                 <p>©2014 - 2020  ETE-"Electro trend elite"</p>
             </div>
+          <div className='Footer_left'>
             <div className='Footer_category'>
                 <h2>Категории</h2>
                 <div className='category_text'>
@@ -45,6 +47,7 @@ export default class Footer extends Component {
                     <BsFacebook/>
                 </div>
             </div>
+          </div>
         </div>
       </div>
     )

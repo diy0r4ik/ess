@@ -63,38 +63,38 @@ export default class Dashboard extends Component {
             <h2>Наш Каталог</h2>
           </div>
           <div class="catalog__items">
-              <a href="#!" class="catalog__card">         
-                  <img src={vikulchatel} className="catalog__card--img"/>
-                    <div class="catalog__card--link">Модульные автоматические выключатели</div>
-              </a>
-              <a href="#!" class="catalog__card">         
-                  <img src={vikulchatel} className="catalog__card--img"/>
-                    <div class="catalog__card--link">Модульные автоматические выключатели</div>
-              </a>
-              <a href="#!" class="catalog__card">         
-                  <img src={vikulchatel} className="catalog__card--img"/>
-                    <div class="catalog__card--link">Модульные автоматические выключатели</div>
-              </a>
-              <a href="#!" class="catalog__card">         
-                  <img src={vikulchatel} className="catalog__card--img"/>
-                    <div class="catalog__card--link">Модульные автоматические выключатели</div>
-              </a>
-              <a href="#!" class="catalog__card">         
-                  <img src={vikulchatel} className="catalog__card--img"/>
-                    <div class="catalog__card--link">Модульные автоматические выключатели</div>
-              </a>
-              <a href="#!" class="catalog__card">         
-                  <img src={vikulchatel} className="catalog__card--img"/>
-                    <div class="catalog__card--link">Модульные автоматические выключатели</div>
-              </a>
-              <a href="#!" class="catalog__card">         
-                  <img src={vikulchatel} className="catalog__card--img"/>
-                    <div class="catalog__card--link">Модульные автоматические выключатели</div>
-              </a>
-              <a href="#!" class="catalog__card">         
-                  <img src={vikulchatel} className="catalog__card--img"/>
-                    <div class="catalog__card--link">Модульные автоматические выключатели</div>
-              </a>
+            <div className='catalog_card'>
+              <img src={vikulchatel}/>
+              <p>Модульные автоматические выключатели</p>
+            </div>
+            <div className='catalog_card'>
+              <img src={vikulchatel}/>
+              <p>Модульные автоматические выключатели</p>
+            </div>
+            <div className='catalog_card'>
+              <img src={vikulchatel}/>
+              <p>Модульные автоматические выключатели</p>
+            </div>
+            <div className='catalog_card'>
+              <img src={vikulchatel}/>
+              <p>Модульные автоматические выключатели</p>
+            </div>
+            <div className='catalog_card'>
+              <img src={vikulchatel}/>
+              <p>Модульные автоматические выключатели</p>
+            </div>
+            <div className='catalog_card'>
+              <img src={vikulchatel}/>
+              <p>Модульные автоматические выключатели</p>
+            </div>
+            <div className='catalog_card'>
+              <img src={vikulchatel}/>
+              <p>Модульные автоматические выключатели</p>
+            </div>
+            <div className='catalog_card'>
+              <img src={vikulchatel}/>
+              <p>Модульные автоматические выключатели</p>
+            </div>
           </div>
           <a href='#!' className='catalog_btn_a'>
             <div className='catalog_btn'>
