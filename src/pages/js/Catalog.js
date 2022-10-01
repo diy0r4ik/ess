@@ -39,20 +39,191 @@ export default class Catalog extends Component {
                 <div className='catalog_right'>
                     <h1>Под категории</h1>
                     <div className='catalog_categoty'>
+                        
                         <div className='catalog_categoty_card'>
-                            {/* <img src={}/> */}
-                            <p></p>
+                            <img src={vikulchatel}/>
+                            <p>Контактор электромагнитный NC1</p>
+                        </div>
+                        <div className='catalog_categoty_card'>
+                            <img src={vikulchatel}/>
+                            <p>Контактор электромагнитный NC1</p>
+                        </div>
+                        <div className='catalog_categoty_card'>
+                            <img src={vikulchatel}/>
+                            <p>Контактор электромагнитный NC1</p>
+                        </div>
+                        <div className='catalog_categoty_card'>
+                            <img src={vikulchatel}/>
+                            <p>Контактор электромагнитный NC1</p>
+                        </div>
+                        <div className='catalog_categoty_card'>
+                            <img src={vikulchatel}/>
+                            <p>Контактор электромагнитный NC1</p>
+                        </div>
+                        <div className='catalog_categoty_card'>
+                            <img src={vikulchatel}/>
+                            <p>Контактор электромагнитный NC1</p>
+                        </div>
+                        <div className='catalog_categoty_card'>
+                            <img src={vikulchatel}/>
+                            <p>Контактор электромагнитный NC1</p>
+                        </div>
+                        <div className='catalog_categoty_card'>
+                            <img src={vikulchatel}/>
+                            <p>Контактор электромагнитный NC1</p>
+                        </div>
+                        <div className='catalog_categoty_card'>
+                            <img src={vikulchatel}/>
+                            <p>Контактор электромагнитный NC1</p>
+                        </div>
+                        <div className='catalog_categoty_card'>
+                            <img src={vikulchatel}/>
+                            <p>Контактор электромагнитный NC1</p>
+                        </div>
+                        <div className='catalog_categoty_card'>
+                            <img src={vikulchatel}/>
+                            <p>Контактор электромагнитный NC1</p>
+                        </div>
+                        <div className='catalog_categoty_card'>
+                            <img src={vikulchatel}/>
+                            <p>Контактор электромагнитный NC1</p>
+                        </div>
+                        <div className='catalog_categoty_card'>
+                            <img src={vikulchatel}/>
+                            <p>Контактор электромагнитный NC1</p>
+                        </div>
+                        <div className='catalog_categoty_card'>
+                            <img src={vikulchatel}/>
+                            <p>Контактор электромагнитный NC1</p>
                         </div>
                     </div>
                     <div className='catalog_cards2'>
                         <div className='catalog_card2'>
                             <img src={vikulchatel}/>
-                            <p>Код: 3518</p> <br/>
-                            <p>В наличии</p> <br/>
-                            <p>Щит пластиковый PC 350х500х190 IP65 PC 36 груп</p>
+                            <div className='card_texts'>
+                                <div className='card_texts_p'>
+                                    <p>Код: 3518</p> 
+                                    <p>В наличии</p>                                    
+                                </div>
+
+                            <h6>Щит пластиковый PC 350х500х190 IP65 PC 36 груп</h6>
                             <div className='catalog_card_b'>
-                                <p>678 000 сум</p>
-                                <p>В КОРЗИНУ</p>
+                                <p className='card_price'>678 000 сум</p>
+                                <p className='buy'>В КОРЗИНУ</p>                                
+                            </div>
+
+                            </div>
+                        </div>
+                        <div className='catalog_card2'>
+                            <img src={vikulchatel}/>
+                            <div className='card_texts'>
+                                <div className='card_texts_p'>
+                                    <p>Код: 3518</p> 
+                                    <p>В наличии</p>                                    
+                                </div>
+
+                            <h6>Щит пластиковый PC 350х500х190 IP65 PC 36 груп</h6>
+                            <div className='catalog_card_b'>
+                                <p className='card_price'>678 000 сум</p>
+                                <p className='buy'>В КОРЗИНУ</p>                                
+                            </div>
+
+                            </div>
+                        </div>
+                        <div className='catalog_card2'>
+                            <img src={vikulchatel}/>
+                            <div className='card_texts'>
+                                <div className='card_texts_p'>
+                                    <p>Код: 3518</p> 
+                                    <p>В наличии</p>                                    
+                                </div>
+
+                            <h6>Щит пластиковый PC 350х500х190 IP65 PC 36 груп</h6>
+                            <div className='catalog_card_b'>
+                                <p className='card_price'>678 000 сум</p>
+                                <p className='buy'>В КОРЗИНУ</p>                                
+                            </div>
+
+                            </div>
+                        </div>
+                        <div className='catalog_card2'>
+                            <img src={vikulchatel}/>
+                            <div className='card_texts'>
+                                <div className='card_texts_p'>
+                                    <p>Код: 3518</p> 
+                                    <p>В наличии</p>                                    
+                                </div>
+
+                            <h6>Щит пластиковый PC 350х500х190 IP65 PC 36 груп</h6>
+                            <div className='catalog_card_b'>
+                                <p className='card_price'>678 000 сум</p>
+                                <p className='buy'>В КОРЗИНУ</p>                                
+                            </div>
+
+                            </div>
+                        </div>
+                        <div className='catalog_card2'>
+                            <img src={vikulchatel}/>
+                            <div className='card_texts'>
+                                <div className='card_texts_p'>
+                                    <p>Код: 3518</p> 
+                                    <p>В наличии</p>                                    
+                                </div>
+
+                            <h6>Щит пластиковый PC 350х500х190 IP65 PC 36 груп</h6>
+                            <div className='catalog_card_b'>
+                                <p className='card_price'>678 000 сум</p>
+                                <p className='buy'>В КОРЗИНУ</p>                                
+                            </div>
+
+                            </div>
+                        </div>
+                        <div className='catalog_card2'>
+                            <img src={vikulchatel}/>
+                            <div className='card_texts'>
+                                <div className='card_texts_p'>
+                                    <p>Код: 3518</p> 
+                                    <p>В наличии</p>                                    
+                                </div>
+
+                            <h6>Щит пластиковый PC 350х500х190 IP65 PC 36 груп</h6>
+                            <div className='catalog_card_b'>
+                                <p className='card_price'>678 000 сум</p>
+                                <p className='buy'>В КОРЗИНУ</p>                                
+                            </div>
+
+                            </div>
+                        </div>
+                        <div className='catalog_card2'>
+                            <img src={vikulchatel}/>
+                            <div className='card_texts'>
+                                <div className='card_texts_p'>
+                                    <p>Код: 3518</p> 
+                                    <p>В наличии</p>                                    
+                                </div>
+
+                            <h6>Щит пластиковый PC 350х500х190 IP65 PC 36 груп</h6>
+                            <div className='catalog_card_b'>
+                                <p className='card_price'>678 000 сум</p>
+                                <p className='buy'>В КОРЗИНУ</p>                                
+                            </div>
+
+                            </div>
+                        </div>
+                        <div className='catalog_card2'>
+                            <img src={vikulchatel}/>
+                            <div className='card_texts'>
+                                <div className='card_texts_p'>
+                                    <p>Код: 3518</p> 
+                                    <p>В наличии</p>                                    
+                                </div>
+
+                            <h6>Щит пластиковый PC 350х500х190 IP65 PC 36 груп</h6>
+                            <div className='catalog_card_b'>
+                                <p className='card_price'>678 000 сум</p>
+                                <p className='buy'>В КОРЗИНУ</p>                                
+                            </div>
+
                             </div>
                         </div>
                     </div>
