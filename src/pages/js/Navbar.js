@@ -12,7 +12,7 @@ export default class Navbar extends Component {
       <div>
         <div className='Navbar'>
           <div className='Nav_logo'>
-            <img src={logo} alt="Logo" className="Logo" />
+            <a href='/'><img src={logo} alt="Logo" className="Logo" /></a>
             <div className='Nav_phone'>+998 (94) 304-87-10</div>
           </div>
           

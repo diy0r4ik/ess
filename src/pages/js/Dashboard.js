@@ -96,9 +96,9 @@ export default class Dashboard extends Component {
               <p>Модульные автоматические выключатели</p>
             </div>
           </div>
-          <a href='#!' className='catalog_btn_a'>
+          <a href='/category' className='catalog_btn_a'>
             <div className='catalog_btn'>
-              <button>Все категории</button>
+              <a href='/category'><button>Все категории</button></a>
             </div>
           </a>
         </div>
