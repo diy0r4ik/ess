@@ -1,4 +1,17 @@
-.catalog .catalog-skew {
+.catalog2 {
+    /* height: 1332px; */
+    margin-top: 18px;
+    background-image: linear-gradient(to right bottom,rgba(205, 189, 42, 0.545),rgba(222, 209, 31, 0.546)),url(../img/catalog_img.jpg);
+    background-size: cover;
+    /* transform: skewY(-7deg); */
+}
+.wrapper2 {
+    /* max-width: 1440px; */
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.catalog2 .catalog-skew2 {
     display: flex;
     flex-wrap: wrap;
     margin-left: -15px;
@@ -8,9 +21,9 @@
     margin-left: 15px;
     margin-right: 15px;
     flex-direction: column;
-    -webkit-transform: skewY(7deg);
-    transform: skewY(7deg);
-    padding: 118px 0;
+    /* -webkit-transform: skewY(7deg);
+    transform: skewY(7deg); */
+    padding: 50px 0;
 }
 .section__heading {
     display: flex;
