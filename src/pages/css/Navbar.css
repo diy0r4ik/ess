@@ -66,6 +66,11 @@
     align-items: center;
     justify-content: center;
     margin-left: 15px;
+    cursor: pointer;
+}
+.user_icons a{
+    text-decoration: none;
+    color: #000;
 }
 .user{
     display: grid;

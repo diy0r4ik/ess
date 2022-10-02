@@ -42,16 +42,16 @@ export default class Navbar extends Component {
             </div>
 
             <div className='user_icons'>
-              <div className='user'>
-              <BsHandbag className='icon'/>
-              <p>Корзина</p>
-              </div>
+              <a href='/ordered'><div className='user'>
+                <BsHandbag className='icon'/>
+                <p>Корзина</p>
+              </div></a>
             </div>
           </div>
         </div>
         <div className='Navbar_2'>
           <div className='Nav_logo'>
-            <img src={logo} alt="Logo" className="Logo" />
+            <a href='/'><img src={logo} alt="Logo" className="Logo" /></a>
             <div className='Nav_phone'>+998(94)3048710</div>
           </div>
           <div className='Nav_right'>
@@ -69,10 +69,10 @@ export default class Navbar extends Component {
             </div>
 
             <div className='user_icons'>
-              <div className='user'>
-              <BsHandbag className='icon'/>
-              <p>Корзина</p>
-              </div>
+              <a href='/ordered'><div className='user'>
+               <BsHandbag className='icon'/>
+                <p>Корзина</p>
+              </div></a>
             </div>
           </div>
         </div>

@@ -1,8 +1,18 @@
 import React, { Component } from 'react'
 import vikulchatel from '../img/vikulchatel.jpg'
-
+import { AiFillHeart, AiOutlineHeart} from 'react-icons/ai'
 import '../css/Catalog.css'
+
+
 export default class Catalog extends Component {
+    state = { liked: false };
+    toggle = () => {
+      let localLiked = this.state.liked;
+    
+      // Toggle the state variable liked
+      localLiked = !localLiked;
+      this.setState({ liked: localLiked });
+    };
   render() {
     return (
       <div className='Catalog'>
@@ -99,6 +109,7 @@ export default class Catalog extends Component {
                     </div>
                     <div className='catalog_cards2'>
                         <div className='catalog_card2'>
+                            <div className="card_like" style={{ width: "10px", fontSize: '35px' }} onClick={() => this.toggle()} > {this.state.liked === false ? ( <AiOutlineHeart /> ) : ( <AiFillHeart /> )} </div>
                             <img src={vikulchatel}/>
                             <div className='card_texts'>
                                 <div className='card_texts_p'>
@@ -115,6 +126,7 @@ export default class Catalog extends Component {
                             </div>
                         </div>
                         <div className='catalog_card2'>
+                            <div className="card_like" style={{ width: "10px", fontSize: '35px' }} onClick={() => this.toggle()} > {this.state.liked === false ? ( <AiOutlineHeart /> ) : ( <AiFillHeart /> )} </div>
                             <img src={vikulchatel}/>
                             <div className='card_texts'>
                                 <div className='card_texts_p'>
@@ -131,6 +143,7 @@ export default class Catalog extends Component {
                             </div>
                         </div>
                         <div className='catalog_card2'>
+                            <div className="card_like" style={{ width: "10px", fontSize: '35px' }} onClick={() => this.toggle()} > {this.state.liked === false ? ( <AiOutlineHeart /> ) : ( <AiFillHeart /> )} </div>
                             <img src={vikulchatel}/>
                             <div className='card_texts'>
                                 <div className='card_texts_p'>
@@ -147,6 +160,7 @@ export default class Catalog extends Component {
                             </div>
                         </div>
                         <div className='catalog_card2'>
+                            <div className="card_like" style={{ width: "10px", fontSize: '35px' }} onClick={() => this.toggle()} > {this.state.liked === false ? ( <AiOutlineHeart /> ) : ( <AiFillHeart /> )} </div>
                             <img src={vikulchatel}/>
                             <div className='card_texts'>
                                 <div className='card_texts_p'>
@@ -163,6 +177,7 @@ export default class Catalog extends Component {
                             </div>
                         </div>
                         <div className='catalog_card2'>
+                            <div className="card_like" style={{ width: "10px", fontSize: '35px' }} onClick={() => this.toggle()} > {this.state.liked === false ? ( <AiOutlineHeart /> ) : ( <AiFillHeart /> )} </div>
                             <img src={vikulchatel}/>
                             <div className='card_texts'>
                                 <div className='card_texts_p'>
@@ -179,38 +194,7 @@ export default class Catalog extends Component {
                             </div>
                         </div>
                         <div className='catalog_card2'>
-                            <img src={vikulchatel}/>
-                            <div className='card_texts'>
-                                <div className='card_texts_p'>
-                                    <p>Код: 3518</p> 
-                                    <p>В наличии</p>                                    
-                                </div>
-
-                            <h6>Щит пластиковый PC 350х500х190 IP65 PC 36 груп</h6>
-                            <div className='catalog_card_b'>
-                                <p className='card_price'>678 000 сум</p>
-                                <p className='buy'>В КОРЗИНУ</p>                                
-                            </div>
-
-                            </div>
-                        </div>
-                        <div className='catalog_card2'>
-                            <img src={vikulchatel}/>
-                            <div className='card_texts'>
-                                <div className='card_texts_p'>
-                                    <p>Код: 3518</p> 
-                                    <p>В наличии</p>                                    
-                                </div>
-
-                            <h6>Щит пластиковый PC 350х500х190 IP65 PC 36 груп</h6>
-                            <div className='catalog_card_b'>
-                                <p className='card_price'>678 000 сум</p>
-                                <p className='buy'>В КОРЗИНУ</p>                                
-                            </div>
-
-                            </div>
-                        </div>
-                        <div className='catalog_card2'>
+                            <div className="card_like" style={{ width: "10px", fontSize: '35px' }} onClick={() => this.toggle()} > {this.state.liked === false ? ( <AiOutlineHeart /> ) : ( <AiFillHeart /> )} </div>
                             <img src={vikulchatel}/>
                             <div className='card_texts'>
                                 <div className='card_texts_p'>
@@ -231,6 +215,7 @@ export default class Catalog extends Component {
 
             </div>            
         </section>    
+          
 
       </div>
     )
