@@ -12,7 +12,11 @@ export default class App extends Component {
     return (
       <div>
         <Navbar/>
-    <BrowserRouter>
+        <Dashboard/>
+        <Category/>
+        <Catalog/>
+        <Ordered/>
+    {/* <BrowserRouter>
       <Routes>
         <Route path="/" element={<Dashboard />} />
           <Route path="/category" element={<Category />} />
@@ -20,7 +24,7 @@ export default class App extends Component {
           <Route path="/ordered" element={<Ordered/>} />
         
       </Routes>
-    </BrowserRouter>
+    </BrowserRouter> */}
         {/* <Category/> */}
         {/* <Catalog/> */}
         {/* <Dashboard/>  */}

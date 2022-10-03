@@ -73,7 +73,7 @@
     color: #000;
 }
 .user{
-    display: grid;
+    display: block;
     /* align-items: center; */
     text-align: center;
     justify-content: center;
@@ -86,6 +86,7 @@
     align-items: center;
     justify-content: left;
     margin-top: 20px;
+    padding-bottom: 20px;
     /* margin-left: 120px; */
 }
 .Menu select{
@@ -129,7 +130,7 @@
     margin: 0 auto;
 }
 .Nav_search2{
-    width: 80%;
+    width: 95%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -169,21 +170,31 @@
 @media(max-width:500px){
     .Navbar_2{
         display: block;
+        padding-top: 10px;
     }
     .Nav_right{
         display: flex;
         justify-content: end;
+        margin-right: 20px;
     }
     .Nav_search2{
         display: none;
     }
     .Nav_phone{
-        font-size: 15px;
+        font-size: 5vw;
+        font-weight: 900;
     }
     .Menu select{
         font-size: 15px;
+        background: none;
+        border: none;
+    }
+    .Nav_logo{
+        width: 80%;
     }
     .user{
-        font-size: 10px;
+        font-size: 20px;
+        display: block;
+        font-weight: 500;
     }
 }

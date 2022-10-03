@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import vikulchatel from '../img/vikulchatel.jpg'
+import {AiOutlineRight} from 'react-icons/ai'
 import '../css/Ordered.css'
 export default class Ordered extends Component {
   render() {
@@ -41,7 +42,18 @@ export default class Ordered extends Component {
                     </div>    
                 </div>    
                 <div className='Ordered_right'>
-                        
+                    <div className='Ordered_r_card'>
+                        <h1>Сводка заказа</h1>
+                        <div className='r_card_amount'>
+                            <p>Количество товаров: 2 шт.</p>
+                            <p>Стоимость товаров: 94 000 сум</p>                            
+                        </div>
+                        <div className='Total_price'>
+                            <p>Итоговая стоимость:</p>
+                            <p className='Total'>94 000 сум</p>
+                        </div>
+                    </div>
+                    <button>Оформить Заказ <AiOutlineRight/> </button>
                 </div>    
             </div> 
         </div>

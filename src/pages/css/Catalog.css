@@ -213,4 +213,8 @@
         grid-template-columns: 90vw;
         margin-top: 5%;
     }
+    .category_name {
+        font-size: 15px;
+        margin: 20px 45px;
+    }
 }
