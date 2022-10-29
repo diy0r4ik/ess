@@ -32,7 +32,7 @@ export default class Dashboard extends Component {
       <div className='Slide'>
           <div className='Slide_left'>
             <h3> Цифровые мультиметры </h3>
-            <a>Delixe</a>
+            <a>Chint</a>
             <p>gbhukjilkopl[kojiugyttyhujiokpgyftdtyuhjkjhugyftdrhjkqwzexrctvybuni <br/> m,.zsxdcfvgbhnjmio,p.zxdcftvgybuhnjimk,.zxrdctfvygbuhnijm,xctvybuynm, <br/> gbhukjilkopl[kojiugyttyhujiokpgyftdtyuhjkjhugyftdrhjkqwzexrctvybuni <br/> m,.zsxdcfvgbhnjmio,p.zxdcftvgybuhnjimk,.zxrdctfvygbuhnijm,xctvybuynm,</p>
             <button> Подробнее </button>
           </div>
@@ -45,7 +45,7 @@ export default class Dashboard extends Component {
       <div className='Slide'>
           <div className='Slide_left'>
             <h3> Цифровые мультиметры </h3>
-            <a>Delixe</a>
+            <a>АНС</a>
             <p>gbhukjilkopl[kojiugyttyhujiokpgyftdtyuhjkjhugyftdrhjkqwzexrctvybuni <br/> m,.zsxdcfvgbhnjmio,p.zxdcftvgybuhnjimk,.zxrdctfvygbuhnijm,xctvybuynm, <br/> gbhukjilkopl[kojiugyttyhujiokpgyftdtyuhjkjhugyftdrhjkqwzexrctvybuni <br/> m,.zsxdcfvgbhnjmio,p.zxdcftvgybuhnjimk,.zxrdctfvygbuhnijm,xctvybuynm,</p>
             <button> Подробнее </button>
           </div>
@@ -63,38 +63,38 @@ export default class Dashboard extends Component {
             <h2>Наш Каталог</h2>
           </div>
           <div class="catalog__items">
-            <div className='catalog_card'>
+            <a href='/catalog'><div className='catalog_card'>
               <img src={vikulchatel}/>
               <p>Модульные автоматические выключатели</p>
-            </div>
-            <div className='catalog_card'>
+            </div></a>
+            <a href='/catalog'><div className='catalog_card'>
               <img src={vikulchatel}/>
               <p>Модульные автоматические выключатели</p>
-            </div>
-            <div className='catalog_card'>
+            </div></a>
+            <a href='/catalog'><div className='catalog_card'>
               <img src={vikulchatel}/>
               <p>Модульные автоматические выключатели</p>
-            </div>
-            <div className='catalog_card'>
+            </div></a>
+            <a href='/catalog'><div className='catalog_card'>
               <img src={vikulchatel}/>
               <p>Модульные автоматические выключатели</p>
-            </div>
-            <div className='catalog_card'>
+            </div></a>
+            <a href='/catalog'><div className='catalog_card'>
               <img src={vikulchatel}/>
               <p>Модульные автоматические выключатели</p>
-            </div>
-            <div className='catalog_card'>
+            </div></a>
+            <a href='/catalog'><div className='catalog_card'>
               <img src={vikulchatel}/>
               <p>Модульные автоматические выключатели</p>
-            </div>
-            <div className='catalog_card'>
+            </div></a>
+            <a href='/catalog'><div className='catalog_card'>
               <img src={vikulchatel}/>
               <p>Модульные автоматические выключатели</p>
-            </div>
-            <div className='catalog_card'>
+            </div></a>
+            <a href='/catalog'><div className='catalog_card'>
               <img src={vikulchatel}/>
               <p>Модульные автоматические выключатели</p>
-            </div>
+            </div></a>
           </div>
           <a href='/category' className='catalog_btn_a'>
             <div className='catalog_btn'>

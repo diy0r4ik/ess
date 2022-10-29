@@ -10,13 +10,33 @@ import Ordered from './pages/js/Ordered'
 export default class App extends Component {
   render() {
     return (
+
+
+
+      
       <div>
+
+      {/* <Navbar/>
+
+      {this.state.show?( 
+        <Router>
+            <Routes>
+              <Route path="/" element={<Dashboard />} />
+              <Route path="/category" element={<Category />} />
+              <Route path="/catalog" element={<Catalog />} />
+              <Route path="/ordered" element={<Ordered/>} />
+            </Routes>
+        </Router>
+        ):(
+        <div>
+        </div>
+      
+      )}
+
+      <Footer/> */}
+
         <Navbar/>
-        <Dashboard/>
-        <Category/>
-        <Catalog/>
-        <Ordered/>
-    {/* <BrowserRouter>
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<Dashboard />} />
           <Route path="/category" element={<Category />} />
@@ -24,10 +44,7 @@ export default class App extends Component {
           <Route path="/ordered" element={<Ordered/>} />
         
       </Routes>
-    </BrowserRouter> */}
-        {/* <Category/> */}
-        {/* <Catalog/> */}
-        {/* <Dashboard/>  */}
+    </BrowserRouter>
         <Footer/>
       </div>
     )
