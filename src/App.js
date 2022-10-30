@@ -6,6 +6,7 @@ import Footer from './pages/js/Footer'
 import Category from './pages/js/Category'
 import Catalog from './pages/js/Catalog'
 import Ordered from './pages/js/Ordered'
+import Fault from './pages/js/Fault'
 
 export default class App extends Component {
   render() {
@@ -42,6 +43,7 @@ export default class App extends Component {
           <Route path="/category" element={<Category />} />
           <Route path="/catalog" element={<Catalog />} />
           <Route path="/ordered" element={<Ordered/>} />
+          <Route path="/fault" element={<Fault/>} />
         
       </Routes>
     </BrowserRouter>

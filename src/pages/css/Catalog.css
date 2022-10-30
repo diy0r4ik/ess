@@ -11,8 +11,18 @@
     background-color: #fff;
     border-radius: 30px;
     padding-left: 70px;
-    padding-top: 15px;
+    /* padding-top: 15px; */
     margin: 0 auto;
+    text-align: center;
+    font-weight: 700;
+}
+.where_you a{
+    text-decoration: none;
+    color: #ffbf00;
+}
+.where_you a:hover{
+    text-decoration: none;
+    color: #ff7700;
 }
 .category_name{
     margin: 30px 70px;
@@ -52,7 +62,7 @@
     height: 25px;
 }
 .catalog_right{
-    width: 75%;
+    width: 78%;
 }
 .catalog_categoty_card{
     width: 300px;

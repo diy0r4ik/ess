@@ -3,6 +3,84 @@ import vikulchatel from '../img/vikulchatel.jpg'
 import {AiOutlineRight} from 'react-icons/ai'
 import '../css/Ordered.css'
 export default class Ordered extends Component {
+    state={
+        buy:[],
+        totalprice:[],
+        totalcount:0,
+        totals:0
+      }
+      plus=(key)=>{
+        this.state.buy[key].count++;
+        this.setState({})
+        localStorage.setItem("names", JSON.stringify(this.state.buy));
+            this.totalprice()
+            this.totalcount()
+    
+    
+      }
+        delete = (key) => {
+            this.state.buy.splice(key, 1)
+          this.setState({})
+          localStorage.setItem("names", JSON.stringify(this.state.buy));
+          this.totalprice()
+            this.totalcount()
+            this.totalSkidka()
+    
+    
+        }
+      minus=(key)=>{
+        this.state.buy[key].count--;
+        if(this.state.buy[key].count<=0){
+    this.state.buy.splice(key,1)
+        }
+        this.setState({})
+        localStorage.setItem("names", JSON.stringify(this.state.buy));
+            this.totalprice()
+            this.totalcount()
+            this.totalSkidka()
+    
+    
+        }
+      totalprice=()=>{
+        var a= 0
+        for (let i = 0; i < this.state.buy.length; i++) {
+          a=a+this.state.buy[i].price*this.state.buy[i].count
+        }
+        this.setState({totalprice:a.toFixed(2)})
+      }
+      totalSkidka=()=>{
+         var a = 0
+         for (let i = 0; i < this.state.buy.length; i++) {
+           a = a + (this.state.buy[i].price * this.state.buy[i].count*this.state.buy[i].skidka)/100
+         }
+         this.setState({
+           totals: a.toFixed(2)
+         })
+      }
+    
+       totalcount = () => {
+         var b = 0
+         for (let i = 0; i < this.state.buy.length; i++) {
+           b = b + this.state.buy[i].count
+         }
+         this.setState({totalcount:b})
+       }
+    
+        componentDidMount() {
+          if (JSON.parse(localStorage.getItem("names")) !== null) {
+            this.setState({
+              buy: JSON.parse(localStorage.getItem("names"))
+            })
+          }
+         
+          
+          setTimeout(() => {
+            console.log(this.state.buy);
+            this.totalprice()
+            this.totalcount()
+            this.totalSkidka()
+          }, 100);
+        }
   render() {
     return (
       <div>
