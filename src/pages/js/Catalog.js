@@ -149,7 +149,7 @@ export default class Catalog extends Component {
                         </div>
                     </div>
                     <div className='catalog_cards2'>
-                    {this.state.data.map((item, key)=>{
+                    {/* {this.state.data.map((item, key)=>{
                         {return <div className='catalog_card2'>
                             <div className="card_like" style={{ width: "10px", fontSize: '35px' }} onClick={() => this.toggle()} > {this.state.liked === false ? ( <AiOutlineHeart /> ) : ( <AiFillHeart /> )} </div>
                             <img src={vikulchatel}/>
@@ -166,9 +166,12 @@ export default class Catalog extends Component {
                                 </div>
 
                             </div>
-                        </div>}})} 
+                        </div>}})}  */}
+                        {/* {this.state.data.map((item, key)=>{
+                            {return}
+                        })} */}
                         <div className='catalog_card2'>
-                            <div className="card_like" style={{ width: "10px", fontSize: '35px' }} onClick={() => this.toggle()} > {this.state.liked === false ? ( <AiOutlineHeart /> ) : ( <AiFillHeart /> )} </div>
+                            <div className="card_like" style={{ width: "10px", fontSize: '35px' }} > {this.state.liked === false ? ( <AiOutlineHeart /> ) : ( <AiFillHeart /> )} </div>
                             <img src={vikulchatel}/>
                             <div className='card_texts'>
                                 <div className='card_texts_p'>
