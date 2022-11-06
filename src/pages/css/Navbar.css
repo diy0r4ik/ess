@@ -5,6 +5,10 @@
     justify-content: space-between;
     margin: 0 auto;
     border-bottom: 1px solid #ccc;
+    position: fixed;
+    background-color: #fff;
+    z-index: 100;
+    top: 0;
 }
 .Nav_logo{
     width: 300px;
@@ -85,9 +89,8 @@
     display: flex;
     align-items: center;
     justify-content: left;
-    margin-top: 20px;
+    margin-top: 100px;
     padding-bottom: 20px;
-    /* margin-left: 120px; */
 }
 .Menu select{
     width: 230px;
@@ -161,6 +164,7 @@
         display: none;
     }
     .Menu{
+        margin-top: 20px;
         justify-content: space-around;
     }
     .Menu a{
