@@ -257,7 +257,7 @@ export default class Catalog extends Component {
                         </div>
                     </div>
                 </div>
-
+                I will learn may vacabulary after this state, so therefore wish IT WILL END SO ERLIER. AT FIRST A SHOULD LEARN THE VACABULARY. AND AFTER THE ENGLISH COURSE I WILL STAY THERE, WITH DOING LISTENING OR REVIESING GRAMMAR. ACTUALLY ONE OF THE IMPORTANT THING IS MY VACABULARY
             </div>            
         </section>    
           
